@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Simple Box View Controller-->
+        <scene sceneID="nh9-Zd-EXL">
+            <objects>
+                <viewController storyboardIdentifier="second" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RMT-Eb-ZAX" customClass="SimpleBoxViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hZI-Kk-z4G"/>
+                        <viewControllerLayoutGuide type="bottom" id="NBq-1V-cF6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6YK-ui-5Cq">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="统一背景.png" translatesAutoresizingMaskIntoConstraints="NO" id="yVi-a4-t1R">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" delaysContentTouches="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tmv-rb-fCb">
+                                <rect key="frame" x="0.0" y="128" width="1024" height="512"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hHQ-GD-Db8">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="512"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25Q-fY-8Nf">
+                                                <rect key="frame" x="100" y="25" width="116" height="116"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher1"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="RMT-Eb-ZAX" eventType="touchUpInside" id="R5b-1C-aXb"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njv-N5-Gkm">
+                                                <rect key="frame" x="336" y="25" width="116" height="116"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher2"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="RMT-Eb-ZAX" eventType="touchUpInside" id="lSw-pJ-MUa"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0r-hr-4dI">
+                                                <rect key="frame" x="572" y="25" width="116" height="116"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher3"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="RMT-Eb-ZAX" eventType="touchUpInside" id="iC5-NY-DVV"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="30j-AP-3Tx">
+                                                <rect key="frame" x="336" y="339" width="116" height="116"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher6"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="RMT-Eb-ZAX" eventType="touchUpInside" id="MFh-fD-js8"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gf4-oK-yjn">
+                                                <rect key="frame" x="808" y="25" width="116" height="116"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher4"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="RMT-Eb-ZAX" eventType="touchUpInside" id="Qce-6L-7Zq"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aka-pt-BQi">
+                                                <rect key="frame" x="100" y="339" width="116" height="116"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher5"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="RMT-Eb-ZAX" eventType="touchUpInside" id="aJz-s7-1ph"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="音乐" translatesAutoresizingMaskIntoConstraints="NO" id="JQi-Ji-1YR">
+                                                <rect key="frame" x="100" y="172" width="120" height="40"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="导航" translatesAutoresizingMaskIntoConstraints="NO" id="Ikz-ez-zna">
+                                                <rect key="frame" x="572" y="172" width="120" height="40"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="空调座椅" translatesAutoresizingMaskIntoConstraints="NO" id="ocq-mg-gue">
+                                                <rect key="frame" x="808" y="172" width="120" height="40"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="电话" translatesAutoresizingMaskIntoConstraints="NO" id="khR-LV-vrm">
+                                                <rect key="frame" x="100" y="472" width="120" height="40"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="车管家" translatesAutoresizingMaskIntoConstraints="NO" id="E3B-LH-JLr">
+                                                <rect key="frame" x="336" y="472" width="120" height="40"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="设置" translatesAutoresizingMaskIntoConstraints="NO" id="rPx-Uh-KaO">
+                                                <rect key="frame" x="572" y="472" width="120" height="40"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="倒车" translatesAutoresizingMaskIntoConstraints="NO" id="kaq-l5-14B">
+                                                <rect key="frame" x="808" y="472" width="120" height="40"/>
+                                            </imageView>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ald-S4-CyZ">
+                                                <rect key="frame" x="808" y="339" width="116" height="116"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher8"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="RMT-Eb-ZAX" eventType="touchUpInside" id="QeN-qG-N0s"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybv-Sb-MQ1">
+                                                <rect key="frame" x="572" y="339" width="116" height="116"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher7"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="RMT-Eb-ZAX" eventType="touchUpInside" id="zwz-Ew-H2s"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="收音机" translatesAutoresizingMaskIntoConstraints="NO" id="1a5-s1-Bmi">
+                                                <rect key="frame" x="336" y="172" width="120" height="40"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hHQ-GD-Db8" firstAttribute="centerX" secondItem="Tmv-rb-fCb" secondAttribute="centerX" id="St9-J3-TZp"/>
+                                    <constraint firstItem="hHQ-GD-Db8" firstAttribute="width" secondItem="Tmv-rb-fCb" secondAttribute="width" id="c6y-gW-iLq"/>
+                                    <constraint firstItem="hHQ-GD-Db8" firstAttribute="centerY" secondItem="Tmv-rb-fCb" secondAttribute="centerY" id="tlx-da-OjA"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蓝牙未连接" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3X-fv-5Oh">
+                                <rect key="frame" x="868" y="49" width="136" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wifi未连接" translatesAutoresizingMaskIntoConstraints="NO" id="iRj-NS-Icj">
+                                <rect key="frame" x="791" y="49" width="37" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluetooth未连接" translatesAutoresizingMaskIntoConstraints="NO" id="OaL-Pq-NWt">
+                                <rect key="frame" x="844" y="49" width="16" height="30"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="bluetooth" destination="OaL-Pq-NWt" id="cH5-hl-hKh"/>
+                        <outlet property="connectToBox" destination="H3X-fv-5Oh" id="wuQ-B6-5JU"/>
+                        <outlet property="myView" destination="6YK-ui-5Cq" id="38d-OP-4kh"/>
+                        <outlet property="parameterButton" destination="ald-S4-CyZ" id="4sQ-g9-7Ez"/>
+                        <outlet property="scrollView" destination="Tmv-rb-fCb" id="Atx-hL-Pu1"/>
+                        <outlet property="wifl" destination="iRj-NS-Icj" id="wTN-qB-Wwd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ek4-bR-Rh6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-412" y="279"/>
+        </scene>
+        <!--Simple BoxAC Seat View Controller-->
+        <scene sceneID="T60-V7-IvO">
+            <objects>
+                <viewController storyboardIdentifier="simpleBoxACSeatViewController" id="jhd-CJ-YY1" customClass="SimpleBoxACSeatViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eZl-ol-Nx0"/>
+                        <viewControllerLayoutGuide type="bottom" id="Br4-SQ-VeM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QyI-yK-emE">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_Background" translatesAutoresizingMaskIntoConstraints="NO" id="85M-nD-HQp">
+                                <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_ControlBG" translatesAutoresizingMaskIntoConstraints="NO" id="GDj-tC-ii7">
+                                <rect key="frame" x="12" y="107" width="1000" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1000" id="V3B-km-G5N"/>
+                                    <constraint firstAttribute="height" constant="600" id="YVQ-v4-2cR"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcN-qv-koq">
+                                <rect key="frame" x="142" y="256" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="7BQ-bu-Z2F"/>
+                                    <constraint firstAttribute="height" constant="56" id="H1R-6M-A1A"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_MAX_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_MAX_Selected"/>
+                                <connections>
+                                    <action selector="maxAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="2ke-Vh-kba"/>
+                                    <action selector="maxAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="ieY-Ic-plH"/>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_TempBG" translatesAutoresizingMaskIntoConstraints="NO" id="45W-5k-mf8">
+                                <rect key="frame" x="20" y="349" width="230" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="EvR-b7-c4V"/>
+                                    <constraint firstAttribute="width" constant="230" id="NGy-El-i1p"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWP-mS-zGg">
+                                <rect key="frame" x="28" y="374" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="MdD-NO-Sck"/>
+                                    <constraint firstAttribute="height" constant="40" id="aJB-Ca-NbV"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_TempDown_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_TempDown_Highlighted"/>
+                                <connections>
+                                    <action selector="leftTempDownAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="Gas-J9-OY7"/>
+                                    <action selector="leftTempDownAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="gwR-11-SMz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tWT-Zf-04e">
+                                <rect key="frame" x="107" y="376" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="FLp-Pn-g0t"/>
+                                    <constraint firstAttribute="height" constant="36" id="Z8h-Zy-Cvj"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SYj-0d-aBw">
+                                <rect key="frame" x="184" y="374" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dqe-pJ-iPm"/>
+                                    <constraint firstAttribute="width" constant="40" id="pCt-NS-S73"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_TempUp_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_TempUp_Highlighted"/>
+                                <connections>
+                                    <action selector="leftTempUpAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="6AA-kd-o2M"/>
+                                    <action selector="leftTempUpAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="b6c-YK-IUk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIF-vk-gjQ">
+                                <rect key="frame" x="142" y="480" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="UBC-3g-pWe"/>
+                                    <constraint firstAttribute="width" constant="100" id="ojg-QV-JQf"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_FrontDefrost_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_FrontDefrost_Selected"/>
+                                <connections>
+                                    <action selector="frontDefrostAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="138-Yg-jcf"/>
+                                    <action selector="frontDefrostAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="w1E-j9-hq8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XlQ-ck-FBW">
+                                <rect key="frame" x="310" y="256" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="2WY-Wr-Z5s"/>
+                                    <constraint firstAttribute="width" constant="100" id="8lb-2t-696"/>
+                                    <constraint firstAttribute="width" constant="80" id="aKh-IJ-kUO"/>
+                                    <constraint firstAttribute="height" constant="40" id="qbm-lE-TXI"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_POW_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_POW_Selected"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="aKh-IJ-kUO"/>
+                                        <exclude reference="qbm-lE-TXI"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="maxAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="mDJ-CH-GjW"/>
+                                    <action selector="turnOnAirConditioningAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="AKy-B7-oz5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIi-vK-4pQ">
+                                <rect key="frame" x="290" y="366" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="U56-n1-GmW"/>
+                                    <constraint firstAttribute="width" constant="100" id="VSi-Hl-Hxr"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_BackDefrost_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_BackDefrost_Selected"/>
+                                <connections>
+                                    <action selector="backDefrostAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="2KN-S2-vsm"/>
+                                    <action selector="backDefrostAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="cdS-1A-AwF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lU-a3-W3y" customClass="OBShapedButton">
+                                <rect key="frame" x="306" y="470" width="76" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="41Y-gr-rK7"/>
+                                    <constraint firstAttribute="width" constant="76" id="Btf-pV-QgQ"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_Fan_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_Fan_Highlighted"/>
+                                <connections>
+                                    <action selector="fanSpeedDownAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="2IB-Q0-DqT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZu-Dk-fNQ" customClass="OBShapedButton">
+                                <rect key="frame" x="420" y="292" width="184" height="184"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="M4z-q2-YE1"/>
+                                    <constraint firstAttribute="height" constant="184" id="xDA-q1-Wlc"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_FanMode_Background"/>
+                                <connections>
+                                    <action selector="fanModeAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="h1Y-h3-fYr"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_SpeedDown" translatesAutoresizingMaskIntoConstraints="NO" id="7Qz-Gd-TAL">
+                                <rect key="frame" x="392" y="468" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="SJF-Q0-Pn2"/>
+                                    <constraint firstAttribute="width" constant="30" id="lq2-5M-nSA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_SpeedUp" translatesAutoresizingMaskIntoConstraints="NO" id="MLw-W7-8Lc">
+                                <rect key="frame" x="602" y="468" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ekg-Dr-IkF"/>
+                                    <constraint firstAttribute="width" constant="30" id="snN-DY-nMT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_FanSpeed1" translatesAutoresizingMaskIntoConstraints="NO" id="6xD-4b-Ehg">
+                                <rect key="frame" x="392" y="506" width="240" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="3pm-gz-4FW"/>
+                                    <constraint firstAttribute="height" constant="28" id="659-7G-kBJ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKU-dZ-Law">
+                                <rect key="frame" x="614" y="256" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="e3g-mL-HH4"/>
+                                    <constraint firstAttribute="width" constant="100" id="gDB-Vc-nno"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_On_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_On_Selected"/>
+                                <connections>
+                                    <action selector="turnOnAirConditioningAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="RK0-2I-T7u"/>
+                                    <action selector="turnOnAirConditioningAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="ewf-dr-UHi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bha-P6-fma">
+                                <rect key="frame" x="634" y="366" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="kMj-jK-7nV"/>
+                                    <constraint firstAttribute="width" constant="100" id="sfU-s6-N6Z"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_InnerCycle_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_InnerCycle_Selected"/>
+                                <connections>
+                                    <action selector="cycleModeAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="1l7-XW-ygF"/>
+                                    <action selector="cycleModeAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="56y-kD-rIY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZB-ok-qob" customClass="OBShapedButton">
+                                <rect key="frame" x="642" y="470" width="76" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="8nx-99-EY4"/>
+                                    <constraint firstAttribute="width" constant="76" id="GvD-qi-ZhG"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_Fan_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_Fan_Highlighted"/>
+                                <connections>
+                                    <action selector="fanSpeedUpAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="gXq-qy-jcq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOz-Vm-Uaq">
+                                <rect key="frame" x="782" y="256" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="FwV-1G-EWA"/>
+                                    <constraint firstAttribute="height" constant="56" id="kW7-GI-XSE"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_AC_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_AC_Selected"/>
+                                <connections>
+                                    <action selector="acAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="cYF-6d-HeH"/>
+                                    <action selector="acAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="rgx-cr-f0m"/>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_TempBG" translatesAutoresizingMaskIntoConstraints="NO" id="Tt4-um-Uy2">
+                                <rect key="frame" x="792" y="349" width="230" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="4NE-6d-Rod"/>
+                                    <constraint firstAttribute="width" constant="230" id="9xa-Dy-taf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axr-F1-CQc">
+                                <rect key="frame" x="800" y="374" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="aRX-VK-BO8"/>
+                                    <constraint firstAttribute="height" constant="40" id="osB-on-R2U"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_TempDown_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_TempDown_Highlighted"/>
+                                <connections>
+                                    <action selector="leftTempDownAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="HcV-dF-ELl"/>
+                                    <action selector="rightTempDownAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="3sa-nV-pCZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJY-4M-kGV">
+                                <rect key="frame" x="956" y="374" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="OFt-3t-swz"/>
+                                    <constraint firstAttribute="width" constant="40" id="cL7-El-2YW"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_TempUp_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_TempUp_Highlighted"/>
+                                <connections>
+                                    <action selector="leftTempUpAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="ZAf-ud-fFy"/>
+                                    <action selector="rightTempUpAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="Q0m-IJ-wMr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhA-ML-VNV">
+                                <rect key="frame" x="782" y="480" width="100" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0Jk-hT-BeS"/>
+                                    <constraint firstAttribute="height" constant="56" id="yAH-xr-UTH"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_DUAL_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_DUAL_Selected"/>
+                                <connections>
+                                    <action selector="dualAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="Dmi-cl-Udu"/>
+                                    <action selector="dualAction:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="Zeg-nY-Z7L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ogc-D6-wWP">
+                                <rect key="frame" x="16" y="36" width="58" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="56C-LC-L7d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="back:" destination="jhd-CJ-YY1" eventType="touchUpInside" id="UDv-yN-c5l"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nxw-Gt-36S">
+                                <rect key="frame" x="879" y="376" width="36" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="36" id="6F5-iM-OZi"/>
+                                    <constraint firstAttribute="height" constant="36" id="8Hk-2L-Jfs"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Br4-SQ-VeM" firstAttribute="top" secondItem="85M-nD-HQp" secondAttribute="bottom" id="0Mq-bI-6jC"/>
+                            <constraint firstItem="lKU-dZ-Law" firstAttribute="leading" secondItem="JZu-Dk-fNQ" secondAttribute="trailing" constant="10" id="3wa-0P-AmS"/>
+                            <constraint firstItem="85M-nD-HQp" firstAttribute="top" secondItem="eZl-ol-Nx0" secondAttribute="bottom" id="6JA-s7-LCQ"/>
+                            <constraint firstItem="mZB-ok-qob" firstAttribute="leading" secondItem="6xD-4b-Ehg" secondAttribute="trailing" constant="10" id="9pI-qc-0XF"/>
+                            <constraint firstItem="JZu-Dk-fNQ" firstAttribute="centerY" secondItem="QyI-yK-emE" secondAttribute="centerY" id="AqW-h1-EiD"/>
+                            <constraint firstItem="6lU-a3-W3y" firstAttribute="centerY" secondItem="mZB-ok-qob" secondAttribute="centerY" id="BR1-Pg-2hv"/>
+                            <constraint firstItem="Ogc-D6-wWP" firstAttribute="leading" secondItem="QyI-yK-emE" secondAttribute="leading" constant="16" id="CRw-BW-3st"/>
+                            <constraint firstItem="XlQ-ck-FBW" firstAttribute="centerY" secondItem="QyI-yK-emE" secondAttribute="centerY" constant="-100" id="ExG-s8-gYb"/>
+                            <constraint firstItem="JZu-Dk-fNQ" firstAttribute="leading" secondItem="XlQ-ck-FBW" secondAttribute="trailing" constant="10" id="F8K-Kd-Qqb"/>
+                            <constraint firstItem="tWT-Zf-04e" firstAttribute="centerY" secondItem="45W-5k-mf8" secondAttribute="centerY" id="FUG-dv-0mW"/>
+                            <constraint firstItem="TOz-Vm-Uaq" firstAttribute="centerY" secondItem="lKU-dZ-Law" secondAttribute="centerY" id="HPR-q4-wBb"/>
+                            <constraint firstItem="ZJY-4M-kGV" firstAttribute="centerY" secondItem="Tt4-um-Uy2" secondAttribute="centerY" id="HRh-iQ-4I0"/>
+                            <constraint firstItem="XlQ-ck-FBW" firstAttribute="leading" secondItem="xcN-qv-koq" secondAttribute="trailing" constant="68" id="IMI-5I-bQa"/>
+                            <constraint firstItem="TOz-Vm-Uaq" firstAttribute="leading" secondItem="lKU-dZ-Law" secondAttribute="trailing" constant="68" id="IlN-Fi-LV7"/>
+                            <constraint firstItem="SYj-0d-aBw" firstAttribute="centerY" secondItem="45W-5k-mf8" secondAttribute="centerY" id="IoT-Cu-XhQ"/>
+                            <constraint firstItem="lKU-dZ-Law" firstAttribute="centerY" secondItem="XlQ-ck-FBW" secondAttribute="centerY" id="JbI-Np-IXA"/>
+                            <constraint firstItem="Tt4-um-Uy2" firstAttribute="centerY" secondItem="axr-F1-CQc" secondAttribute="centerY" id="KMO-H0-0Uw"/>
+                            <constraint firstItem="6xD-4b-Ehg" firstAttribute="top" secondItem="JZu-Dk-fNQ" secondAttribute="bottom" constant="30" id="Lkn-Uo-0ue"/>
+                            <constraint firstItem="Ogc-D6-wWP" firstAttribute="top" secondItem="eZl-ol-Nx0" secondAttribute="bottom" constant="16" id="MrF-8h-Tvz"/>
+                            <constraint firstItem="85M-nD-HQp" firstAttribute="leading" secondItem="QyI-yK-emE" secondAttribute="leading" id="NK7-k7-9y7"/>
+                            <constraint firstItem="6xD-4b-Ehg" firstAttribute="leading" secondItem="6lU-a3-W3y" secondAttribute="trailing" constant="10" id="O3A-b0-91Y"/>
+                            <constraint firstItem="6xD-4b-Ehg" firstAttribute="centerY" secondItem="6lU-a3-W3y" secondAttribute="centerY" constant="12" id="PzO-1i-P0e"/>
+                            <constraint firstItem="nxw-Gt-36S" firstAttribute="centerY" secondItem="Tt4-um-Uy2" secondAttribute="centerY" id="QkN-i9-eC8"/>
+                            <constraint firstItem="bha-P6-fma" firstAttribute="centerY" secondItem="XIi-vK-4pQ" secondAttribute="centerY" id="QyY-s2-EwK"/>
+                            <constraint firstItem="GDj-tC-ii7" firstAttribute="centerX" secondItem="QyI-yK-emE" secondAttribute="centerX" id="RIi-Ld-gwn"/>
+                            <constraint firstItem="SYj-0d-aBw" firstAttribute="trailing" secondItem="45W-5k-mf8" secondAttribute="trailing" constant="-26" id="RZn-qE-js6"/>
+                            <constraint firstItem="jIF-vk-gjQ" firstAttribute="centerX" secondItem="xcN-qv-koq" secondAttribute="centerX" id="Ry3-BK-IiL"/>
+                            <constraint firstItem="mZB-ok-qob" firstAttribute="centerY" secondItem="6lU-a3-W3y" secondAttribute="centerY" id="SDn-aq-upx"/>
+                            <constraint firstAttribute="trailing" secondItem="85M-nD-HQp" secondAttribute="trailing" id="THP-nM-G1w"/>
+                            <constraint firstItem="XhA-ML-VNV" firstAttribute="centerY" secondItem="mZB-ok-qob" secondAttribute="centerY" id="WLb-8l-tPt"/>
+                            <constraint firstItem="Tt4-um-Uy2" firstAttribute="centerY" secondItem="bha-P6-fma" secondAttribute="centerY" id="Yzg-Jf-P4o"/>
+                            <constraint firstItem="Tt4-um-Uy2" firstAttribute="leading" secondItem="bha-P6-fma" secondAttribute="trailing" constant="58" id="ZzX-5t-CMu"/>
+                            <constraint firstItem="tWT-Zf-04e" firstAttribute="centerX" secondItem="45W-5k-mf8" secondAttribute="centerX" constant="-10" id="bnM-nw-B3e"/>
+                            <constraint firstItem="XlQ-ck-FBW" firstAttribute="centerY" secondItem="xcN-qv-koq" secondAttribute="centerY" id="c8n-pP-cqH"/>
+                            <constraint firstItem="MLw-W7-8Lc" firstAttribute="centerY" secondItem="7Qz-Gd-TAL" secondAttribute="centerY" id="cSx-Fv-3pC"/>
+                            <constraint firstItem="bWP-mS-zGg" firstAttribute="leading" secondItem="45W-5k-mf8" secondAttribute="leading" constant="8" id="dwY-mf-1l7"/>
+                            <constraint firstItem="GDj-tC-ii7" firstAttribute="centerY" secondItem="QyI-yK-emE" secondAttribute="centerY" constant="23" id="eVX-NS-Qb4"/>
+                            <constraint firstItem="6xD-4b-Ehg" firstAttribute="leading" secondItem="7Qz-Gd-TAL" secondAttribute="leading" id="ekh-ZG-cgg"/>
+                            <constraint firstItem="XIi-vK-4pQ" firstAttribute="centerY" secondItem="45W-5k-mf8" secondAttribute="centerY" id="fhu-HK-cGN"/>
+                            <constraint firstItem="Tt4-um-Uy2" firstAttribute="leading" secondItem="axr-F1-CQc" secondAttribute="leading" constant="-8" id="hTC-RI-pna"/>
+                            <constraint firstItem="XIi-vK-4pQ" firstAttribute="leading" secondItem="JZu-Dk-fNQ" secondAttribute="trailing" constant="40" id="isj-63-pLi"/>
+                            <constraint firstItem="XhA-ML-VNV" firstAttribute="centerX" secondItem="TOz-Vm-Uaq" secondAttribute="centerX" id="j79-cI-3El"/>
+                            <constraint firstItem="XIi-vK-4pQ" firstAttribute="leading" secondItem="45W-5k-mf8" secondAttribute="trailing" constant="40" id="mFf-M6-uHq"/>
+                            <constraint firstItem="6xD-4b-Ehg" firstAttribute="centerX" secondItem="QyI-yK-emE" secondAttribute="centerX" id="mXu-H5-EJ7"/>
+                            <constraint firstItem="bWP-mS-zGg" firstAttribute="centerY" secondItem="45W-5k-mf8" secondAttribute="centerY" id="qUD-JK-svg"/>
+                            <constraint firstItem="JZu-Dk-fNQ" firstAttribute="leading" secondItem="XIi-vK-4pQ" secondAttribute="trailing" constant="30" id="rog-yg-ibb"/>
+                            <constraint firstItem="nxw-Gt-36S" firstAttribute="centerX" secondItem="Tt4-um-Uy2" secondAttribute="centerX" constant="-10" id="ud4-hP-nEg"/>
+                            <constraint firstItem="MLw-W7-8Lc" firstAttribute="trailing" secondItem="6xD-4b-Ehg" secondAttribute="trailing" id="vHP-xp-2GA"/>
+                            <constraint firstItem="XIi-vK-4pQ" firstAttribute="centerY" secondItem="JZu-Dk-fNQ" secondAttribute="centerY" constant="10" id="w5I-3p-huV"/>
+                            <constraint firstItem="JZu-Dk-fNQ" firstAttribute="centerX" secondItem="QyI-yK-emE" secondAttribute="centerX" id="w5m-VH-3YY"/>
+                            <constraint firstItem="bha-P6-fma" firstAttribute="leading" secondItem="JZu-Dk-fNQ" secondAttribute="trailing" constant="30" id="wGu-wc-pYR"/>
+                            <constraint firstItem="6xD-4b-Ehg" firstAttribute="top" secondItem="7Qz-Gd-TAL" secondAttribute="bottom" constant="8" id="wI0-p9-sr9"/>
+                            <constraint firstItem="ZJY-4M-kGV" firstAttribute="trailing" secondItem="Tt4-um-Uy2" secondAttribute="trailing" constant="-26" id="z19-Mk-e7k"/>
+                            <constraint firstItem="6lU-a3-W3y" firstAttribute="centerY" secondItem="jIF-vk-gjQ" secondAttribute="centerY" id="zkT-c4-ukS"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="isj-63-pLi"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="acButton" destination="TOz-Vm-Uaq" id="kl7-yj-wah"/>
+                        <outlet property="backDefrostButton" destination="XIi-vK-4pQ" id="i3S-eR-zCa"/>
+                        <outlet property="cycleModeButton" destination="bha-P6-fma" id="u45-zN-RNU"/>
+                        <outlet property="dualButton" destination="XhA-ML-VNV" id="lbo-Hs-LBk"/>
+                        <outlet property="fanModeButton" destination="JZu-Dk-fNQ" id="jjd-hv-6zc"/>
+                        <outlet property="fanSpeedDownButton" destination="6lU-a3-W3y" id="9HW-47-dqh"/>
+                        <outlet property="fanSpeedIV" destination="6xD-4b-Ehg" id="zi0-O5-6JH"/>
+                        <outlet property="fanSpeedUpButton" destination="mZB-ok-qob" id="Irz-Zc-pvI"/>
+                        <outlet property="frontDefrostButton" destination="jIF-vk-gjQ" id="jYH-KN-Hwe"/>
+                        <outlet property="leftTempDownButton" destination="bWP-mS-zGg" id="KNx-4F-Tvj"/>
+                        <outlet property="leftTempIV" destination="tWT-Zf-04e" id="a8v-8B-9Lr"/>
+                        <outlet property="leftTempUpButton" destination="SYj-0d-aBw" id="BZ0-ir-6sO"/>
+                        <outlet property="maxButton" destination="xcN-qv-koq" id="6V6-wm-OVR"/>
+                        <outlet property="onButton" destination="lKU-dZ-Law" id="2XC-r3-XFj"/>
+                        <outlet property="powButton" destination="XlQ-ck-FBW" id="A29-I9-egU"/>
+                        <outlet property="rightTempDownButton" destination="axr-F1-CQc" id="0VF-bL-IDG"/>
+                        <outlet property="rightTempIV" destination="nxw-Gt-36S" id="HVe-XZ-v6j"/>
+                        <outlet property="rightTempUpButton" destination="ZJY-4M-kGV" id="3Ks-KY-6Tn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qVr-g8-8S0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637" y="279"/>
+        </scene>
+        <!--Simple Box View Controller-->
+        <scene sceneID="1bD-fg-Rmv">
+            <objects>
+                <viewController storyboardIdentifier="iphoneView1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="g7Z-hY-47v" customClass="SimpleBoxViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dC4-XZ-pCC"/>
+                        <viewControllerLayoutGuide type="bottom" id="8ia-pc-zfb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BLX-0l-9DV">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="统一背景.png" translatesAutoresizingMaskIntoConstraints="NO" id="rk8-m3-oiK">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" delaysContentTouches="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mEU-p8-CRz">
+                                <rect key="frame" x="0.0" y="50" width="736" height="314"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AF1-dH-jfV">
+                                        <rect key="frame" x="0.0" y="0.0" width="736" height="314"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOJ-Gv-fjk">
+                                                <rect key="frame" x="426" y="20" width="80" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher3"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="g7Z-hY-47v" eventType="touchUpInside" id="dXz-Z8-yKe"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tN-bb-5mS">
+                                                <rect key="frame" x="622" y="20" width="80" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher4"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="g7Z-hY-47v" eventType="touchUpInside" id="afg-BY-Bw4"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T7c-wr-2GO">
+                                                <rect key="frame" x="622" y="170" width="80" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher8"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="g7Z-hY-47v" eventType="touchUpInside" id="mfV-FI-Fi9"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXf-vK-kLn">
+                                                <rect key="frame" x="426" y="170" width="80" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher7"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="g7Z-hY-47v" eventType="touchUpInside" id="4mw-xf-oCm"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KOs-JR-gar">
+                                                <rect key="frame" x="230" y="20" width="80" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher2"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="g7Z-hY-47v" eventType="touchUpInside" id="MrX-a6-WhT"/>
+                                                </connections>
+                                            </button>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="音乐" translatesAutoresizingMaskIntoConstraints="NO" id="LyW-UC-fbs">
+                                                <rect key="frame" x="24" y="112" width="100" height="35"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="收音机" translatesAutoresizingMaskIntoConstraints="NO" id="46Y-Zx-675">
+                                                <rect key="frame" x="220" y="112" width="100" height="35"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="导航" translatesAutoresizingMaskIntoConstraints="NO" id="2rt-Em-yE6">
+                                                <rect key="frame" x="416" y="112" width="100" height="35"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="空调座椅" translatesAutoresizingMaskIntoConstraints="NO" id="55m-Po-8Ne">
+                                                <rect key="frame" x="612" y="112" width="100" height="35"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="车管家" translatesAutoresizingMaskIntoConstraints="NO" id="aez-jg-hLG">
+                                                <rect key="frame" x="220" y="262" width="100" height="35"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="设置" translatesAutoresizingMaskIntoConstraints="NO" id="jSy-u1-OjM">
+                                                <rect key="frame" x="416" y="262" width="100" height="35"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="倒车" translatesAutoresizingMaskIntoConstraints="NO" id="Q5C-ab-2gz">
+                                                <rect key="frame" x="612" y="262" width="100" height="35"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="电话" translatesAutoresizingMaskIntoConstraints="NO" id="2bp-wj-sQN">
+                                                <rect key="frame" x="24" y="262" width="100" height="35"/>
+                                            </imageView>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-f3-sCk">
+                                                <rect key="frame" x="34" y="20" width="80" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher1"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="g7Z-hY-47v" eventType="touchUpInside" id="WRU-00-Ku5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KWE-wt-z3S">
+                                                <rect key="frame" x="230" y="170" width="80" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher6"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="g7Z-hY-47v" eventType="touchUpInside" id="nZe-tF-fDl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMI-M7-UZg">
+                                                <rect key="frame" x="34" y="170" width="80" height="80"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <state key="normal" backgroundImage="launcher5"/>
+                                                <connections>
+                                                    <action selector="onClick:" destination="g7Z-hY-47v" eventType="touchUpInside" id="EcA-Sw-miK"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蓝牙未连接" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vh4-sB-lbb">
+                                <rect key="frame" x="627" y="1" width="100" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluetooth未连接" translatesAutoresizingMaskIntoConstraints="NO" id="VZb-hg-Gxx">
+                                <rect key="frame" x="605" y="0.0" width="14" height="26"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wifi未连接" translatesAutoresizingMaskIntoConstraints="NO" id="Jka-e4-E2i">
+                                <rect key="frame" x="556" y="3" width="27" height="20"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="736" height="414"/>
+                    <connections>
+                        <outlet property="bluetooth" destination="VZb-hg-Gxx" id="SdP-YF-Jac"/>
+                        <outlet property="connectToBox" destination="vh4-sB-lbb" id="1Fi-Yj-KyW"/>
+                        <outlet property="myView" destination="AF1-dH-jfV" id="urc-fM-qMG"/>
+                        <outlet property="parameterButton" destination="T7c-wr-2GO" id="zaI-DE-Zbc"/>
+                        <outlet property="scrollView" destination="mEU-p8-CRz" id="r15-4z-Lfa"/>
+                        <outlet property="wifl" destination="Jka-e4-E2i" id="adn-Fd-Hv7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QXR-Rw-9eX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1614" y="143"/>
+        </scene>
+        <!--Simple BoxAC Seat View Controller-->
+        <scene sceneID="rIf-pN-xb4">
+            <objects>
+                <viewController storyboardIdentifier="iphoneView2" id="sUz-tB-yzO" customClass="SimpleBoxACSeatViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="48B-pG-am7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z4r-rY-468"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TY0-B1-KXx">
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_Background" translatesAutoresizingMaskIntoConstraints="NO" id="7jE-Q2-uPF">
+                                <rect key="frame" x="0.0" y="20" width="736" height="394"/>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_ControlBG" translatesAutoresizingMaskIntoConstraints="NO" id="Mp3-jd-VMa">
+                                <rect key="frame" x="23" y="22" width="690" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="9sJ-wo-Fh4"/>
+                                    <constraint firstAttribute="width" constant="690" id="hWj-6K-bVj"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jti-ug-3yt">
+                                <rect key="frame" x="107" y="121" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="cpt-KK-6jm"/>
+                                    <constraint firstAttribute="height" constant="40" id="zeM-O8-aYL"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_MAX_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_MAX_Selected"/>
+                                <connections>
+                                    <action selector="maxAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="EDj-nr-b9q"/>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_TempBG" translatesAutoresizingMaskIntoConstraints="NO" id="qY5-Wk-WE6">
+                                <rect key="frame" x="15" y="185" width="180" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="NHp-PL-YTy"/>
+                                    <constraint firstAttribute="height" constant="60" id="aEp-P8-gsz"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RB5-k2-Wg1">
+                                <rect key="frame" x="21" y="200" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Wyz-JU-AFp"/>
+                                    <constraint firstAttribute="width" constant="30" id="mRo-un-Xnv"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_TempDown_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_TempDown_Highlighted"/>
+                                <connections>
+                                    <action selector="leftTempDownAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="YTm-fR-dyA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4hV-ka-w1L">
+                                <rect key="frame" x="84" y="202" width="26" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="8BQ-3L-IxQ"/>
+                                    <constraint firstAttribute="width" constant="26" id="kdg-5L-vFF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJx-tL-v7d">
+                                <rect key="frame" x="145" y="200" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="2O5-AL-lav"/>
+                                    <constraint firstAttribute="height" constant="30" id="FMC-fo-cWQ"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_TempUp_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_TempUp_Highlighted"/>
+                                <connections>
+                                    <action selector="leftTempUpAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="JVO-Zb-3Pe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bN1-jc-lTZ">
+                                <rect key="frame" x="107" y="268" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="aP1-QM-DYT"/>
+                                    <constraint firstAttribute="height" constant="40" id="liQ-kU-U96"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_FrontDefrost_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_FrontDefrost_Selected"/>
+                                <connections>
+                                    <action selector="frontDefrostAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="0cF-Ha-DkR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zn6-Ly-7fz">
+                                <rect key="frame" x="227" y="121" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8ce-wJ-2Ax"/>
+                                    <constraint firstAttribute="width" constant="80" id="fQW-nw-m7c"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_POW_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_POW_Selected"/>
+                                <connections>
+                                    <action selector="turnOnAirConditioningAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="SVV-bM-MSp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AP5-Lq-OZe">
+                                <rect key="frame" x="211" y="195" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="NL1-0X-KBO"/>
+                                    <constraint firstAttribute="width" constant="80" id="SAO-Zl-IP4"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_BackDefrost_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_BackDefrost_Selected"/>
+                                <connections>
+                                    <action selector="backDefrostAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="NfJ-hi-wmX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohZ-tY-9Ug" customClass="OBShapedButton">
+                                <rect key="frame" x="220" y="263" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="4qR-nL-dpm"/>
+                                    <constraint firstAttribute="height" constant="50" id="IPk-04-rak"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_Fan_Normal"/>
+                                <connections>
+                                    <action selector="fanSpeedDownAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="NRW-f9-yoG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMu-ze-IYB" customClass="OBShapedButton">
+                                <rect key="frame" x="307" y="146" width="122" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="tl7-6y-oZq"/>
+                                    <constraint firstAttribute="width" constant="122" id="zQc-Fc-dSa"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_FanMode_Background"/>
+                                <connections>
+                                    <action selector="fanModeAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="oBl-HU-CON"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_SpeedDown" translatesAutoresizingMaskIntoConstraints="NO" id="YyG-kN-ehV">
+                                <rect key="frame" x="278" y="262" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Fy4-VV-TyF"/>
+                                    <constraint firstAttribute="height" constant="20" id="xrN-za-Lc7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_SpeedUp" translatesAutoresizingMaskIntoConstraints="NO" id="bt5-8d-cNN">
+                                <rect key="frame" x="438" y="262" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="AdB-gI-J7U"/>
+                                    <constraint firstAttribute="height" constant="20" id="siQ-9u-2aO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_FanSpeed1" translatesAutoresizingMaskIntoConstraints="NO" id="zAc-dS-LVA">
+                                <rect key="frame" x="278" y="288" width="180" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="oE9-J0-FVv"/>
+                                    <constraint firstAttribute="height" constant="20" id="qee-jX-cxF"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiT-gi-seG">
+                                <rect key="frame" x="445" y="195" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="b3b-qf-EaV"/>
+                                    <constraint firstAttribute="width" constant="80" id="vWw-bQ-JHR"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_InnerCycle_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_InnerCycle_Selected"/>
+                                <connections>
+                                    <action selector="cycleModeAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="A8n-zJ-c06"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fux-Wv-aaW" customClass="OBShapedButton">
+                                <rect key="frame" x="466" y="263" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Jzg-he-Pbt"/>
+                                    <constraint firstAttribute="width" constant="50" id="MHm-Wb-Zfz"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_Fan_Normal"/>
+                                <connections>
+                                    <action selector="fanSpeedUpAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="fSh-XJ-l9n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPI-yC-Nia">
+                                <rect key="frame" x="549" y="121" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="KpZ-wF-Ow4"/>
+                                    <constraint firstAttribute="height" constant="40" id="Rgq-GQ-2TQ"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_AC_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_AC_Selected"/>
+                                <connections>
+                                    <action selector="acAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="vdt-Ed-oaC"/>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AirConditioning_TempBG" translatesAutoresizingMaskIntoConstraints="NO" id="s4A-CN-C5H">
+                                <rect key="frame" x="555" y="185" width="180" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="4gA-1r-O4k"/>
+                                    <constraint firstAttribute="width" constant="180" id="odF-A4-Fj7"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PPB-hT-Jbg">
+                                <rect key="frame" x="561" y="200" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="nCX-NL-Zhf"/>
+                                    <constraint firstAttribute="width" constant="30" id="oCq-CU-5po"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_TempDown_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_TempDown_Highlighted"/>
+                                <connections>
+                                    <action selector="rightTempDownAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="QpP-5L-RiY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mQK-BR-teE">
+                                <rect key="frame" x="624" y="202" width="26" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="G8l-HO-oCJ"/>
+                                    <constraint firstAttribute="width" constant="26" id="pw4-yW-J0H"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVp-Rm-nhx">
+                                <rect key="frame" x="685" y="200" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="431-76-0Jh"/>
+                                    <constraint firstAttribute="width" constant="30" id="BED-8S-sVC"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_TempUp_Normal"/>
+                                <state key="highlighted" backgroundImage="AirConditioning_TempUp_Highlighted"/>
+                                <connections>
+                                    <action selector="rightTempUpAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="7il-56-W8W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4F-jD-lQd">
+                                <rect key="frame" x="549" y="268" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="PwU-P4-RW0"/>
+                                    <constraint firstAttribute="height" constant="40" id="ggm-BM-g5c"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_DUAL_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_DUAL_Selected"/>
+                                <connections>
+                                    <action selector="dualAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="Z9y-Fh-yAg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HdP-P0-Brg">
+                                <rect key="frame" x="15" y="35" width="45" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="foD-0e-E9W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="back:" destination="sUz-tB-yzO" eventType="touchUpInside" id="ltg-eG-SfG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdb-h7-KHO">
+                                <rect key="frame" x="429" y="121" width="80" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ADg-bX-rEk"/>
+                                    <constraint firstAttribute="width" constant="80" id="GL6-0N-0Wa"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AirConditioning_On_Normal"/>
+                                <state key="selected" backgroundImage="AirConditioning_On_Selected"/>
+                                <connections>
+                                    <action selector="turnOnAirConditioningAction:" destination="sUz-tB-yzO" eventType="touchUpInside" id="Njk-AU-4oo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="W4F-jD-lQd" firstAttribute="centerX" secondItem="MPI-yC-Nia" secondAttribute="centerX" id="27r-1x-hRq"/>
+                            <constraint firstItem="W4F-jD-lQd" firstAttribute="centerY" secondItem="fux-Wv-aaW" secondAttribute="centerY" id="5xJ-5d-MkT"/>
+                            <constraint firstItem="MPI-yC-Nia" firstAttribute="leading" secondItem="vdb-h7-KHO" secondAttribute="trailing" constant="40" id="8ux-nT-fBH"/>
+                            <constraint firstItem="RB5-k2-Wg1" firstAttribute="centerY" secondItem="qY5-Wk-WE6" secondAttribute="centerY" id="9Ai-Ql-DOU"/>
+                            <constraint firstItem="7jE-Q2-uPF" firstAttribute="leading" secondItem="TY0-B1-KXx" secondAttribute="leading" id="9NJ-Vc-OH0"/>
+                            <constraint firstItem="s4A-CN-C5H" firstAttribute="trailing" secondItem="WVp-Rm-nhx" secondAttribute="trailing" constant="20" id="AQT-mA-oVc"/>
+                            <constraint firstItem="sJx-tL-v7d" firstAttribute="trailing" secondItem="qY5-Wk-WE6" secondAttribute="trailing" constant="-20" id="AV6-uf-acc"/>
+                            <constraint firstItem="zAc-dS-LVA" firstAttribute="centerY" secondItem="ohZ-tY-9Ug" secondAttribute="centerY" constant="10" id="AWb-b5-J1g"/>
+                            <constraint firstItem="qY5-Wk-WE6" firstAttribute="top" secondItem="4hV-ka-w1L" secondAttribute="top" id="Bi7-lY-EPB"/>
+                            <constraint firstItem="4hV-ka-w1L" firstAttribute="centerY" secondItem="qY5-Wk-WE6" secondAttribute="centerY" id="D7z-hT-XXN"/>
+                            <constraint firstItem="zAc-dS-LVA" firstAttribute="top" secondItem="xMu-ze-IYB" secondAttribute="bottom" constant="20" id="FEe-ys-Xyr"/>
+                            <constraint firstItem="zAc-dS-LVA" firstAttribute="centerX" secondItem="TY0-B1-KXx" secondAttribute="centerX" id="G4W-EZ-uOw"/>
+                            <constraint firstItem="zAc-dS-LVA" firstAttribute="leading" secondItem="ohZ-tY-9Ug" secondAttribute="trailing" constant="8" id="Jea-o0-7pJ"/>
+                            <constraint firstItem="bt5-8d-cNN" firstAttribute="trailing" secondItem="zAc-dS-LVA" secondAttribute="trailing" id="KYP-0C-J0n"/>
+                            <constraint firstItem="s4A-CN-C5H" firstAttribute="centerY" secondItem="PPB-hT-Jbg" secondAttribute="centerY" id="KuB-nk-LKl"/>
+                            <constraint firstItem="vdb-h7-KHO" firstAttribute="centerY" secondItem="Zn6-Ly-7fz" secondAttribute="centerY" id="NHz-Vb-jHd"/>
+                            <constraint firstItem="AP5-Lq-OZe" firstAttribute="centerY" secondItem="qY5-Wk-WE6" secondAttribute="centerY" id="NZT-rv-86w"/>
+                            <constraint firstItem="xMu-ze-IYB" firstAttribute="centerX" secondItem="TY0-B1-KXx" secondAttribute="centerX" id="Qpv-Qj-4Qg"/>
+                            <constraint firstItem="zAc-dS-LVA" firstAttribute="top" secondItem="YyG-kN-ehV" secondAttribute="bottom" constant="6" id="Rto-hQ-f8c"/>
+                            <constraint firstItem="s4A-CN-C5H" firstAttribute="centerY" secondItem="aiT-gi-seG" secondAttribute="centerY" id="TZJ-B9-FY1"/>
+                            <constraint firstItem="Zn6-Ly-7fz" firstAttribute="leading" secondItem="jti-ug-3yt" secondAttribute="trailing" constant="40" id="UVF-gV-fid"/>
+                            <constraint firstItem="fux-Wv-aaW" firstAttribute="centerY" secondItem="ohZ-tY-9Ug" secondAttribute="centerY" id="VSz-jQ-w0n"/>
+                            <constraint firstItem="4hV-ka-w1L" firstAttribute="centerX" secondItem="qY5-Wk-WE6" secondAttribute="centerX" constant="-8" id="Var-ka-7Qn"/>
+                            <constraint firstItem="s4A-CN-C5H" firstAttribute="leading" secondItem="PPB-hT-Jbg" secondAttribute="leading" constant="-6" id="XCE-a0-0lq"/>
+                            <constraint firstItem="qY5-Wk-WE6" firstAttribute="centerY" secondItem="4hV-ka-w1L" secondAttribute="centerY" id="Xos-cU-ue1"/>
+                            <constraint firstAttribute="trailing" secondItem="7jE-Q2-uPF" secondAttribute="trailing" id="YUa-fm-mPb"/>
+                            <constraint firstItem="fux-Wv-aaW" firstAttribute="leading" secondItem="zAc-dS-LVA" secondAttribute="trailing" constant="8" id="Ydt-OA-qlb"/>
+                            <constraint firstItem="7jE-Q2-uPF" firstAttribute="top" secondItem="48B-pG-am7" secondAttribute="bottom" id="YlP-Co-YbC"/>
+                            <constraint firstItem="vdb-h7-KHO" firstAttribute="leading" secondItem="xMu-ze-IYB" secondAttribute="trailing" id="ZFe-x0-MkJ"/>
+                            <constraint firstItem="aiT-gi-seG" firstAttribute="leading" secondItem="xMu-ze-IYB" secondAttribute="trailing" constant="16" id="Zb4-8M-9Ob"/>
+                            <constraint firstItem="Mp3-jd-VMa" firstAttribute="centerY" secondItem="TY0-B1-KXx" secondAttribute="centerY" constant="15" id="Zxh-WM-5uh"/>
+                            <constraint firstItem="AP5-Lq-OZe" firstAttribute="centerY" secondItem="TY0-B1-KXx" secondAttribute="centerY" constant="8" id="aUI-QF-k1D"/>
+                            <constraint firstItem="RB5-k2-Wg1" firstAttribute="leading" secondItem="qY5-Wk-WE6" secondAttribute="leading" constant="6" id="dTC-EI-rKD"/>
+                            <constraint firstItem="xMu-ze-IYB" firstAttribute="leading" secondItem="Zn6-Ly-7fz" secondAttribute="trailing" id="e7c-WY-pLF"/>
+                            <constraint firstItem="HdP-P0-Brg" firstAttribute="top" secondItem="48B-pG-am7" secondAttribute="bottom" constant="15" id="eN3-Xz-ef8"/>
+                            <constraint firstItem="HdP-P0-Brg" firstAttribute="leading" secondItem="TY0-B1-KXx" secondAttribute="leading" constant="15" id="ghK-bs-IKH"/>
+                            <constraint firstItem="mQK-BR-teE" firstAttribute="centerY" secondItem="4hV-ka-w1L" secondAttribute="centerY" id="hji-ei-ZeU"/>
+                            <constraint firstItem="Mp3-jd-VMa" firstAttribute="centerX" secondItem="TY0-B1-KXx" secondAttribute="centerX" id="hln-0f-Zmj"/>
+                            <constraint firstItem="s4A-CN-C5H" firstAttribute="leading" secondItem="aiT-gi-seG" secondAttribute="trailing" constant="30" id="hyC-NY-43z"/>
+                            <constraint firstItem="MPI-yC-Nia" firstAttribute="centerY" secondItem="vdb-h7-KHO" secondAttribute="centerY" id="iJo-AT-nCc"/>
+                            <constraint firstItem="Zn6-Ly-7fz" firstAttribute="centerY" secondItem="TY0-B1-KXx" secondAttribute="centerY" constant="-66" id="jkY-OE-foh"/>
+                            <constraint firstItem="4hV-ka-w1L" firstAttribute="bottom" secondItem="qY5-Wk-WE6" secondAttribute="bottom" id="k3h-JR-veN"/>
+                            <constraint firstItem="Zn6-Ly-7fz" firstAttribute="centerY" secondItem="jti-ug-3yt" secondAttribute="centerY" id="l8m-VY-aEo"/>
+                            <constraint firstItem="bt5-8d-cNN" firstAttribute="centerY" secondItem="YyG-kN-ehV" secondAttribute="centerY" id="loi-3y-qHr"/>
+                            <constraint firstItem="s4A-CN-C5H" firstAttribute="centerY" secondItem="WVp-Rm-nhx" secondAttribute="centerY" id="lqg-kH-Mwt"/>
+                            <constraint firstItem="ohZ-tY-9Ug" firstAttribute="centerY" secondItem="bN1-jc-lTZ" secondAttribute="centerY" id="mbW-Hh-r8a"/>
+                            <constraint firstItem="xMu-ze-IYB" firstAttribute="centerY" secondItem="TY0-B1-KXx" secondAttribute="centerY" id="ng5-kZ-xa0"/>
+                            <constraint firstItem="aiT-gi-seG" firstAttribute="centerY" secondItem="AP5-Lq-OZe" secondAttribute="centerY" id="oLg-J7-Ocd"/>
+                            <constraint firstItem="qY5-Wk-WE6" firstAttribute="centerX" secondItem="4hV-ka-w1L" secondAttribute="centerX" id="oNF-QK-8hR"/>
+                            <constraint firstItem="Z4r-rY-468" firstAttribute="top" secondItem="7jE-Q2-uPF" secondAttribute="bottom" id="p4B-eT-KK8"/>
+                            <constraint firstItem="zAc-dS-LVA" firstAttribute="leading" secondItem="YyG-kN-ehV" secondAttribute="leading" id="r7E-kV-7lR"/>
+                            <constraint firstItem="AP5-Lq-OZe" firstAttribute="leading" secondItem="qY5-Wk-WE6" secondAttribute="trailing" constant="16" id="tzc-nw-DNa"/>
+                            <constraint firstItem="bN1-jc-lTZ" firstAttribute="centerX" secondItem="jti-ug-3yt" secondAttribute="centerX" id="uCa-p3-fw1"/>
+                            <constraint firstItem="xMu-ze-IYB" firstAttribute="leading" secondItem="AP5-Lq-OZe" secondAttribute="trailing" constant="16" id="vlD-em-nZ0"/>
+                            <constraint firstItem="sJx-tL-v7d" firstAttribute="centerY" secondItem="qY5-Wk-WE6" secondAttribute="centerY" id="wXZ-fh-9rT"/>
+                            <constraint firstItem="s4A-CN-C5H" firstAttribute="centerX" secondItem="mQK-BR-teE" secondAttribute="centerX" constant="8" id="xiX-71-8T8"/>
+                            <constraint firstItem="4hV-ka-w1L" firstAttribute="leading" secondItem="qY5-Wk-WE6" secondAttribute="leading" id="z3E-s3-f6X"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Bi7-lY-EPB"/>
+                                <exclude reference="Xos-cU-ue1"/>
+                                <exclude reference="oNF-QK-8hR"/>
+                                <exclude reference="k3h-JR-veN"/>
+                                <exclude reference="z3E-s3-f6X"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="736" height="414"/>
+                    <connections>
+                        <outlet property="acButton" destination="MPI-yC-Nia" id="Oo5-ej-gc5"/>
+                        <outlet property="backDefrostButton" destination="AP5-Lq-OZe" id="SGe-HF-zaZ"/>
+                        <outlet property="cycleModeButton" destination="aiT-gi-seG" id="Gcw-Rn-hGo"/>
+                        <outlet property="dualButton" destination="W4F-jD-lQd" id="WY8-Jy-mWC"/>
+                        <outlet property="fanModeButton" destination="xMu-ze-IYB" id="g2G-p9-h5S"/>
+                        <outlet property="fanSpeedDownButton" destination="ohZ-tY-9Ug" id="mNb-c9-R8h"/>
+                        <outlet property="fanSpeedIV" destination="zAc-dS-LVA" id="tju-Nn-wt6"/>
+                        <outlet property="fanSpeedUpButton" destination="fux-Wv-aaW" id="ugM-54-Xl9"/>
+                        <outlet property="frontDefrostButton" destination="bN1-jc-lTZ" id="TBy-0F-pEQ"/>
+                        <outlet property="leftTempDownButton" destination="RB5-k2-Wg1" id="Qw1-gC-tgQ"/>
+                        <outlet property="leftTempIV" destination="4hV-ka-w1L" id="6Pp-yc-xsn"/>
+                        <outlet property="leftTempUpButton" destination="sJx-tL-v7d" id="Yzs-ig-CfY"/>
+                        <outlet property="maxButton" destination="jti-ug-3yt" id="ZAA-6F-DTA"/>
+                        <outlet property="onButton" destination="vdb-h7-KHO" id="wwm-t6-t3A"/>
+                        <outlet property="powButton" destination="Zn6-Ly-7fz" id="EJB-Mn-92W"/>
+                        <outlet property="rightTempDownButton" destination="PPB-hT-Jbg" id="ga1-rG-fzt"/>
+                        <outlet property="rightTempIV" destination="mQK-BR-teE" id="4vI-0R-VwG"/>
+                        <outlet property="rightTempUpButton" destination="WVp-Rm-nhx" id="DvN-Cb-jy3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k4L-g9-V4L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1546" y="701"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AirConditioning_AC_Normal" width="170" height="90"/>
+        <image name="AirConditioning_AC_Selected" width="170" height="90"/>
+        <image name="AirConditioning_BackDefrost_Normal" width="170" height="90"/>
+        <image name="AirConditioning_BackDefrost_Selected" width="170" height="90"/>
+        <image name="AirConditioning_Background" width="2048" height="1536"/>
+        <image name="AirConditioning_ControlBG" width="1720" height="1031"/>
+        <image name="AirConditioning_DUAL_Normal" width="170" height="90"/>
+        <image name="AirConditioning_DUAL_Selected" width="170" height="90"/>
+        <image name="AirConditioning_FanMode_Background" width="304" height="307"/>
+        <image name="AirConditioning_FanSpeed1" width="379" height="40"/>
+        <image name="AirConditioning_Fan_Highlighted" width="118" height="118"/>
+        <image name="AirConditioning_Fan_Normal" width="118" height="118"/>
+        <image name="AirConditioning_FrontDefrost_Normal" width="170" height="90"/>
+        <image name="AirConditioning_FrontDefrost_Selected" width="170" height="90"/>
+        <image name="AirConditioning_InnerCycle_Normal" width="170" height="90"/>
+        <image name="AirConditioning_InnerCycle_Selected" width="170" height="90"/>
+        <image name="AirConditioning_MAX_Normal" width="170" height="90"/>
+        <image name="AirConditioning_MAX_Selected" width="170" height="90"/>
+        <image name="AirConditioning_On_Normal" width="170" height="90"/>
+        <image name="AirConditioning_On_Selected" width="170" height="90"/>
+        <image name="AirConditioning_POW_Normal" width="170" height="90"/>
+        <image name="AirConditioning_POW_Selected" width="170" height="90"/>
+        <image name="AirConditioning_SpeedDown" width="39" height="39"/>
+        <image name="AirConditioning_SpeedUp" width="39" height="41"/>
+        <image name="AirConditioning_TempBG" width="551" height="152"/>
+        <image name="AirConditioning_TempDown_Highlighted" width="63" height="72"/>
+        <image name="AirConditioning_TempDown_Normal" width="62" height="73"/>
+        <image name="AirConditioning_TempUp_Highlighted" width="62" height="73"/>
+        <image name="AirConditioning_TempUp_Normal" width="62" height="73"/>
+        <image name="bluetooth未连接" width="30" height="54"/>
+        <image name="launcher1" width="250" height="250"/>
+        <image name="launcher2" width="148" height="250"/>
+        <image name="launcher3" width="250" height="250"/>
+        <image name="launcher4" width="250" height="250"/>
+        <image name="launcher5" width="250" height="250"/>
+        <image name="launcher6" width="250" height="250"/>
+        <image name="launcher7" width="250" height="250"/>
+        <image name="launcher8" width="250" height="250"/>
+        <image name="wifi未连接" width="54" height="43"/>
+        <image name="倒车" width="241" height="82"/>
+        <image name="导航" width="241" height="82"/>
+        <image name="收音机" width="241" height="82"/>
+        <image name="电话" width="241" height="82"/>
+        <image name="空调座椅" width="241" height="82"/>
+        <image name="统一背景.png" width="2560" height="1600"/>
+        <image name="设置" width="241" height="82"/>
+        <image name="车管家" width="241" height="82"/>
+        <image name="音乐" width="241" height="82"/>
+    </resources>
+</document>

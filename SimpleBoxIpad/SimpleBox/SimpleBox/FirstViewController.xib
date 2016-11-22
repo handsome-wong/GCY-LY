@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstViewController">
+            <connections>
+                <outlet property="bluetooth" destination="qzF-TX-Ie8" id="1zx-Nb-nFG"/>
+                <outlet property="connectToBox" destination="dkx-hC-9IJ" id="i7g-Q5-r2D"/>
+                <outlet property="myView" destination="i5M-Pr-FkT" id="bkN-7J-Apr"/>
+                <outlet property="parameterButton" destination="mpG-r9-Hab" id="1Fj-4G-zIh"/>
+                <outlet property="scrollView" destination="FV0-YI-ZxT" id="Mdy-fm-Bqp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wifl" destination="UK6-ar-7P3" id="1rc-Fu-U1W"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="first" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="736" height="415"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="统一背景" translatesAutoresizingMaskIntoConstraints="NO" id="Fff-xz-lMn">
+                    <rect key="frame" x="0.0" y="1" width="736" height="414"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" delaysContentTouches="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FV0-YI-ZxT">
+                    <rect key="frame" x="0.0" y="50" width="736" height="314"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsQ-0K-S4H">
+                            <rect key="frame" x="0.0" y="-52" width="736" height="316"/>
+                            <subviews>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndu-CX-hAR">
+                                    <rect key="frame" x="34" y="72" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="launcher1"/>
+                                    <connections>
+                                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="gi3-Vw-k4m"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyr-bE-xBU">
+                                    <rect key="frame" x="426" y="72" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="launcher3"/>
+                                    <connections>
+                                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="Tpi-Na-x99"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FZ-IH-dgZ">
+                                    <rect key="frame" x="230" y="222" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="launcher6"/>
+                                    <connections>
+                                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="dzF-SU-pac"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpG-r9-Hab">
+                                    <rect key="frame" x="622" y="72" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="launcher4"/>
+                                    <connections>
+                                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="f72-da-AMv"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFq-3G-ulg">
+                                    <rect key="frame" x="34" y="222" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="launcher5"/>
+                                    <connections>
+                                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="ZX0-5I-wat"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="音乐" translatesAutoresizingMaskIntoConstraints="NO" id="OWK-3h-0tc">
+                                    <rect key="frame" x="24" y="164" width="100" height="35"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="收音机" translatesAutoresizingMaskIntoConstraints="NO" id="SEc-PA-YBe">
+                                    <rect key="frame" x="220" y="164" width="100" height="35"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="导航" translatesAutoresizingMaskIntoConstraints="NO" id="Rgx-ok-g4v">
+                                    <rect key="frame" x="416" y="164" width="100" height="35"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="空调座椅" translatesAutoresizingMaskIntoConstraints="NO" id="p6x-Pu-VrM">
+                                    <rect key="frame" x="612" y="164" width="100" height="35"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="车管家" translatesAutoresizingMaskIntoConstraints="NO" id="yDb-D8-HQk">
+                                    <rect key="frame" x="220" y="314" width="100" height="35"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="设置" translatesAutoresizingMaskIntoConstraints="NO" id="UJU-fW-IHU">
+                                    <rect key="frame" x="416" y="314" width="100" height="35"/>
+                                </imageView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="倒车" translatesAutoresizingMaskIntoConstraints="NO" id="LQj-c5-GcP">
+                                    <rect key="frame" x="612" y="314" width="100" height="35"/>
+                                </imageView>
+                                <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpl-Zy-TGt">
+                                    <rect key="frame" x="622" y="222" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="launcher8"/>
+                                    <connections>
+                                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="0rf-bG-F5Y"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5YK-5N-qNp">
+                                    <rect key="frame" x="426" y="222" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="launcher7"/>
+                                    <connections>
+                                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="ZuA-e5-rq4"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="电话" translatesAutoresizingMaskIntoConstraints="NO" id="tqJ-Ie-VcH">
+                                    <rect key="frame" x="24" y="314" width="100" height="35"/>
+                                </imageView>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJv-HF-u4b">
+                                    <rect key="frame" x="230" y="72" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" backgroundImage="launcher2"/>
+                                    <connections>
+                                        <action selector="onClick:" destination="-1" eventType="touchUpInside" id="b3h-Kd-V9O"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                </scrollView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluetooth未连接" translatesAutoresizingMaskIntoConstraints="NO" id="qzF-TX-Ie8">
+                    <rect key="frame" x="606" y="8" width="14" height="26"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wifi未连接" translatesAutoresizingMaskIntoConstraints="NO" id="UK6-ar-7P3">
+                    <rect key="frame" x="560" y="11" width="27" height="20"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蓝牙未连接" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkx-hC-9IJ">
+                    <rect key="frame" x="632" y="9" width="100" height="23"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="360" y="292.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bluetooth未连接" width="30" height="54"/>
+        <image name="launcher1" width="250" height="250"/>
+        <image name="launcher2" width="250" height="250"/>
+        <image name="launcher3" width="250" height="250"/>
+        <image name="launcher4" width="250" height="250"/>
+        <image name="launcher5" width="250" height="250"/>
+        <image name="launcher6" width="250" height="250"/>
+        <image name="launcher7" width="250" height="250"/>
+        <image name="launcher8" width="250" height="250"/>
+        <image name="wifi未连接" width="54" height="43"/>
+        <image name="倒车" width="241" height="82"/>
+        <image name="导航" width="241" height="82"/>
+        <image name="收音机" width="241" height="82"/>
+        <image name="电话" width="241" height="82"/>
+        <image name="空调座椅" width="241" height="82"/>
+        <image name="统一背景" width="2560" height="1600"/>
+        <image name="设置" width="241" height="82"/>
+        <image name="车管家" width="241" height="82"/>
+        <image name="音乐" width="241" height="82"/>
+    </resources>
+</document>

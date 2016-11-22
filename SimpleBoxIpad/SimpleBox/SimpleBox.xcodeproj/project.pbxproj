@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040ED6801C1842C400C0F3DA /* RotateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ED67F1C1842C400C0F3DA /* RotateImage.m */; };
+		040ED6831C1907ED00C0F3DA /* SimpleBoxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 040ED6821C1907ED00C0F3DA /* SimpleBoxMenu.m */; };
+		04B6B2511C1EE68B00490419 /* ACParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B6B2501C1EE68B00490419 /* ACParameter.m */; };
+		04C3B2671C0BDFD300B0EC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B2661C0BDFD300B0EC47 /* main.m */; };
+		04C3B26A1C0BDFD300B0EC47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B2691C0BDFD300B0EC47 /* AppDelegate.m */; };
+		04C3B2701C0BDFD300B0EC47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B26E1C0BDFD300B0EC47 /* Main.storyboard */; };
+		04C3B2721C0BDFD300B0EC47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B2711C0BDFD300B0EC47 /* Images.xcassets */; };
+		04C3B2751C0BDFD300B0EC47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C3B2731C0BDFD300B0EC47 /* LaunchScreen.xib */; };
+		04C3B2811C0BDFD400B0EC47 /* SimpleBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B2801C0BDFD400B0EC47 /* SimpleBoxTests.m */; };
+		04C3B2951C0BE0F500B0EC47 /* SimpleBoxPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B2941C0BE0F500B0EC47 /* SimpleBoxPageControl.m */; };
+		04C3B29E1C0C053A00B0EC47 /* SimpleBoxHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B29D1C0C053A00B0EC47 /* SimpleBoxHandler.m */; };
+		04C3B2D91C0C5AA400B0EC47 /* SimpleBoxAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B2D81C0C5AA400B0EC47 /* SimpleBoxAirConditioner.m */; };
+		04C3B3201C0FCD7000B0EC47 /* SimpleBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B31F1C0FCD7000B0EC47 /* SimpleBoxViewController.m */; };
+		04C3B3231C0FE84B00B0EC47 /* SimpleBoxACSeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C3B3221C0FE84B00B0EC47 /* SimpleBoxACSeatViewController.m */; };
+		04C910071C1186A9004B9379 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C910061C1186A9004B9379 /* Reachability.m */; };
+		04C9100A1C118742004B9379 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C910081C118732004B9379 /* SystemConfiguration.framework */; };
+		04EF2E441C2929B700B59F61 /* SimpleBoxServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF2E431C2929B700B59F61 /* SimpleBoxServer.framework */; };
+		0A8CF2F61D7D1248003BA081 /* OBShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CF2F51D7D1248003BA081 /* OBShapedButton.m */; };
+		0A8CF2F91D7D1C27003BA081 /* UIImage+ColorAtPixel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CF2F81D7D1C27003BA081 /* UIImage+ColorAtPixel.m */; };
+		0AB4BE961D6EF90B002EB173 /* Simplebox_hacv.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB4BE951D6EF90B002EB173 /* Simplebox_hacv.pb.m */; };
+		D452E7931C194E7800A162D2 /* 统一背景.png in Resources */ = {isa = PBXBuildFile; fileRef = D452E7921C194E7800A162D2 /* 统一背景.png */; };
+		E0F44CE81DDDB2E800723781 /* ProtocolBuffers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F44CE71DDDB2DD00723781 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E0F44CE91DDDB2E800723781 /* ProtocolBuffers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0F44CE71DDDB2DD00723781 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E0F44CEC1DDDB31700723781 /* ProtocolBuffers.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E0F44CE71DDDB2DD00723781 /* ProtocolBuffers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C3B27B1C0BDFD400B0EC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C3B2591C0BDFD300B0EC47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C3B2601C0BDFD300B0EC47;
+			remoteInfo = SimpleBox;
+		};
+		E0F44CE21DDDB2DD00723781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F44CDC1DDDB2DD00723781 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = ProtocolBuffers;
+		};
+		E0F44CE41DDDB2DD00723781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F44CDC1DDDB2DD00723781 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5B03F76125179F30087887C;
+			remoteInfo = UnitTests;
+		};
+		E0F44CE61DDDB2DD00723781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F44CDC1DDDB2DD00723781 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 097A223F1B8B10BB00D02243;
+			remoteInfo = ProtocolBuffers.framework;
+		};
+		E0F44CEA1DDDB2E800723781 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0F44CDC1DDDB2DD00723781 /* ProtocolBuffers.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 097A223E1B8B10BB00D02243;
+			remoteInfo = ProtocolBuffers.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		042AF7EE1C1D5AF600FBAAF9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E0F44CEC1DDDB31700723781 /* ProtocolBuffers.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F30C5A1C1482E000443D60 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E0F44CE91DDDB2E800723781 /* ProtocolBuffers.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		040ED67E1C1842C400C0F3DA /* RotateImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateImage.h; sourceTree = "<group>"; };
+		040ED67F1C1842C400C0F3DA /* RotateImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateImage.m; sourceTree = "<group>"; };
+		040ED6811C1907ED00C0F3DA /* SimpleBoxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBoxMenu.h; sourceTree = "<group>"; };
+		040ED6821C1907ED00C0F3DA /* SimpleBoxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBoxMenu.m; sourceTree = "<group>"; };
+		04B6B24F1C1EE68B00490419 /* ACParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACParameter.h; sourceTree = "<group>"; };
+		04B6B2501C1EE68B00490419 /* ACParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACParameter.m; sourceTree = "<group>"; };
+		04C3B2611C0BDFD300B0EC47 /* SimpleBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C3B2651C0BDFD300B0EC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C3B2661C0BDFD300B0EC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C3B2681C0BDFD300B0EC47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C3B2691C0BDFD300B0EC47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C3B26F1C0BDFD300B0EC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C3B2711C0BDFD300B0EC47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04C3B2741C0BDFD300B0EC47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04C3B27A1C0BDFD400B0EC47 /* SimpleBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C3B27F1C0BDFD400B0EC47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C3B2801C0BDFD400B0EC47 /* SimpleBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleBoxTests.m; sourceTree = "<group>"; };
+		04C3B2931C0BE0F500B0EC47 /* SimpleBoxPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBoxPageControl.h; sourceTree = "<group>"; };
+		04C3B2941C0BE0F500B0EC47 /* SimpleBoxPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBoxPageControl.m; sourceTree = "<group>"; };
+		04C3B29C1C0C053A00B0EC47 /* SimpleBoxHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBoxHandler.h; sourceTree = "<group>"; };
+		04C3B29D1C0C053A00B0EC47 /* SimpleBoxHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBoxHandler.m; sourceTree = "<group>"; };
+		04C3B2D71C0C5AA400B0EC47 /* SimpleBoxAirConditioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBoxAirConditioner.h; sourceTree = "<group>"; };
+		04C3B2D81C0C5AA400B0EC47 /* SimpleBoxAirConditioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBoxAirConditioner.m; sourceTree = "<group>"; };
+		04C3B31E1C0FCD7000B0EC47 /* SimpleBoxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBoxViewController.h; sourceTree = "<group>"; };
+		04C3B31F1C0FCD7000B0EC47 /* SimpleBoxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBoxViewController.m; sourceTree = "<group>"; };
+		04C3B3211C0FE84B00B0EC47 /* SimpleBoxACSeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleBoxACSeatViewController.h; sourceTree = "<group>"; };
+		04C3B3221C0FE84B00B0EC47 /* SimpleBoxACSeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleBoxACSeatViewController.m; sourceTree = "<group>"; };
+		04C910051C1186A9004B9379 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		04C910061C1186A9004B9379 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		04C910081C118732004B9379 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		04EF2E431C2929B700B59F61 /* SimpleBoxServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimpleBoxServer.framework; path = ../SimpleBoxServer/build/SimpleBoxServer.framework; sourceTree = "<group>"; };
+		04EF2E8B1C2B074400B59F61 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-amnzlxcpauhstaeccjoisitjxzce/Build/Products/Debug-iphoneos/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		081A09191D119ED4000F7BC4 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../ProtoBuffers/Build/Products/Debug-iphoneos/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		081A091C1D119F7C000F7BC4 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-fgydjzrmzcniyncyqqtqewoxucro/Build/Products/Debug-iphoneos/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		08946E6D1C7EAC1900B45C6A /* libProtocolBuffers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = "../../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-alszkrztbkotkefrkoqhcuyehimq/Build/Products/Debug-iphoneos/libProtocolBuffers.a"; sourceTree = "<group>"; };
+		08946E6F1C7EAC6900B45C6A /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-alszkrztbkotkefrkoqhcuyehimq/Build/Products/Debug-iphoneos/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		08C803381D6D380E0025D544 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-hjnbgmssapwyyjdimykzybdgsuzm/Build/Products/Debug-iphonesimulator/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		0A452B491D77AF6E00DEC2CE /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-ffycqgilvwwkdzcoeyhdwjyftqdq/Build/Products/Debug-iphonesimulator/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		0A452B4C1D782CF600DEC2CE /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-ffycqgilvwwkdzcoeyhdwjyftqdq/Build/Products/Debug-iphoneos/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		0A5E7F041D6E7868009BB58C /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-aijdtgqlpedghxayeswmpyukzobp/Build/Products/Debug-iphonesimulator/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		0A8CF2F41D7D1248003BA081 /* OBShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBShapedButton.h; sourceTree = "<group>"; };
+		0A8CF2F51D7D1248003BA081 /* OBShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBShapedButton.m; sourceTree = "<group>"; };
+		0A8CF2F71D7D1C27003BA081 /* UIImage+ColorAtPixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorAtPixel.h"; sourceTree = "<group>"; };
+		0A8CF2F81D7D1C27003BA081 /* UIImage+ColorAtPixel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorAtPixel.m"; sourceTree = "<group>"; };
+		0AB4BE911D6EF665002EB173 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-dnfdbcsedzycsofqvirklfbgwskg/Build/Products/Debug-iphonesimulator/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		0AB4BE941D6EF90B002EB173 /* Simplebox_hacv.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Simplebox_hacv.pb.h; sourceTree = "<group>"; };
+		0AB4BE951D6EF90B002EB173 /* Simplebox_hacv.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Simplebox_hacv.pb.m; sourceTree = "<group>"; };
+		0AFCB1371D756BEC005E26D8 /* ProtocolBuffers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ProtocolBuffers.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/SimpleBoxWorkSpace-dkpglbdyplczoqbafpisrbeoefhr/Build/Products/Debug-iphonesimulator/ProtocolBuffers.framework"; sourceTree = "<group>"; };
+		D452E7921C194E7800A162D2 /* 统一背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "统一背景.png"; sourceTree = "<group>"; };
+		E0F44CDA1DDDB2BF00723781 /* libProtocolBuffers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = "../ProtoBuffers/Build/Products/Debug-iphoneos/libProtocolBuffers.a"; sourceTree = "<group>"; };
+		E0F44CDC1DDDB2DD00723781 /* ProtocolBuffers.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProtocolBuffers.xcodeproj; path = ../ProtoBuffers/ProtocolBuffers.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C3B25E1C0BDFD300B0EC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C9100A1C118742004B9379 /* SystemConfiguration.framework in Frameworks */,
+				E0F44CE81DDDB2E800723781 /* ProtocolBuffers.framework in Frameworks */,
+				04EF2E441C2929B700B59F61 /* SimpleBoxServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B2771C0BDFD400B0EC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044D53051C1031530043F61D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0F44CDC1DDDB2DD00723781 /* ProtocolBuffers.xcodeproj */,
+				E0F44CDA1DDDB2BF00723781 /* libProtocolBuffers.a */,
+				0A452B4C1D782CF600DEC2CE /* ProtocolBuffers.framework */,
+				0A452B491D77AF6E00DEC2CE /* ProtocolBuffers.framework */,
+				0AFCB1371D756BEC005E26D8 /* ProtocolBuffers.framework */,
+				0AB4BE911D6EF665002EB173 /* ProtocolBuffers.framework */,
+				0A5E7F041D6E7868009BB58C /* ProtocolBuffers.framework */,
+				08C803381D6D380E0025D544 /* ProtocolBuffers.framework */,
+				081A091C1D119F7C000F7BC4 /* ProtocolBuffers.framework */,
+				081A09191D119ED4000F7BC4 /* ProtocolBuffers.framework */,
+				08946E6F1C7EAC6900B45C6A /* ProtocolBuffers.framework */,
+				08946E6D1C7EAC1900B45C6A /* libProtocolBuffers.a */,
+				04EF2E8B1C2B074400B59F61 /* ProtocolBuffers.framework */,
+				04EF2E431C2929B700B59F61 /* SimpleBoxServer.framework */,
+				04C910081C118732004B9379 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04C3B2581C0BDFD300B0EC47 = {
+			isa = PBXGroup;
+			children = (
+				04C3B2631C0BDFD300B0EC47 /* SimpleBox */,
+				04C3B27D1C0BDFD400B0EC47 /* SimpleBoxTests */,
+				04C3B2621C0BDFD300B0EC47 /* Products */,
+				044D53051C1031530043F61D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04C3B2621C0BDFD300B0EC47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B2611C0BDFD300B0EC47 /* SimpleBox.app */,
+				04C3B27A1C0BDFD400B0EC47 /* SimpleBoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C3B2631C0BDFD300B0EC47 /* SimpleBox */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B29B1C0BFA6F00B0EC47 /* BusinessLogicLayer */,
+				04C3B29A1C0BFA4A00B0EC47 /* PresenttationLayer */,
+				0A8CF2F21D7D1236003BA081 /* Vendors */,
+				04C3B2641C0BDFD300B0EC47 /* Supporting Files */,
+			);
+			path = SimpleBox;
+			sourceTree = "<group>";
+		};
+		04C3B2641C0BDFD300B0EC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B2681C0BDFD300B0EC47 /* AppDelegate.h */,
+				04C3B2691C0BDFD300B0EC47 /* AppDelegate.m */,
+				D452E7921C194E7800A162D2 /* 统一背景.png */,
+				04C3B26E1C0BDFD300B0EC47 /* Main.storyboard */,
+				04C3B2711C0BDFD300B0EC47 /* Images.xcassets */,
+				04C3B2731C0BDFD300B0EC47 /* LaunchScreen.xib */,
+				04C3B2651C0BDFD300B0EC47 /* Info.plist */,
+				04C3B2661C0BDFD300B0EC47 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C3B27D1C0BDFD400B0EC47 /* SimpleBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B2801C0BDFD400B0EC47 /* SimpleBoxTests.m */,
+				04C3B27E1C0BDFD400B0EC47 /* Supporting Files */,
+			);
+			path = SimpleBoxTests;
+			sourceTree = "<group>";
+		};
+		04C3B27E1C0BDFD400B0EC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B27F1C0BDFD400B0EC47 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04C3B28D1C0BE01400B0EC47 /* simpleBoxViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B31E1C0FCD7000B0EC47 /* SimpleBoxViewController.h */,
+				04C3B31F1C0FCD7000B0EC47 /* SimpleBoxViewController.m */,
+				04C3B3211C0FE84B00B0EC47 /* SimpleBoxACSeatViewController.h */,
+				04C3B3221C0FE84B00B0EC47 /* SimpleBoxACSeatViewController.m */,
+				04B6B24F1C1EE68B00490419 /* ACParameter.h */,
+				04B6B2501C1EE68B00490419 /* ACParameter.m */,
+			);
+			name = simpleBoxViewController;
+			sourceTree = "<group>";
+		};
+		04C3B28F1C0BE08E00B0EC47 /* simpleBoxView */ = {
+			isa = PBXGroup;
+			children = (
+				040ED67E1C1842C400C0F3DA /* RotateImage.h */,
+				040ED67F1C1842C400C0F3DA /* RotateImage.m */,
+				04C3B2931C0BE0F500B0EC47 /* SimpleBoxPageControl.h */,
+				04C3B2941C0BE0F500B0EC47 /* SimpleBoxPageControl.m */,
+				040ED6811C1907ED00C0F3DA /* SimpleBoxMenu.h */,
+				040ED6821C1907ED00C0F3DA /* SimpleBoxMenu.m */,
+			);
+			name = simpleBoxView;
+			sourceTree = "<group>";
+		};
+		04C3B29A1C0BFA4A00B0EC47 /* PresenttationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				04C3B28D1C0BE01400B0EC47 /* simpleBoxViewController */,
+				04C3B28F1C0BE08E00B0EC47 /* simpleBoxView */,
+			);
+			name = PresenttationLayer;
+			sourceTree = "<group>";
+		};
+		04C3B29B1C0BFA6F00B0EC47 /* BusinessLogicLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0AB4BE941D6EF90B002EB173 /* Simplebox_hacv.pb.h */,
+				0AB4BE951D6EF90B002EB173 /* Simplebox_hacv.pb.m */,
+				04C910051C1186A9004B9379 /* Reachability.h */,
+				04C910061C1186A9004B9379 /* Reachability.m */,
+				04C3B29C1C0C053A00B0EC47 /* SimpleBoxHandler.h */,
+				04C3B29D1C0C053A00B0EC47 /* SimpleBoxHandler.m */,
+				04C3B2D71C0C5AA400B0EC47 /* SimpleBoxAirConditioner.h */,
+				04C3B2D81C0C5AA400B0EC47 /* SimpleBoxAirConditioner.m */,
+			);
+			name = BusinessLogicLayer;
+			sourceTree = "<group>";
+		};
+		0A8CF2F21D7D1236003BA081 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				0A8CF2F31D7D1248003BA081 /* OBShapedButton */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		0A8CF2F31D7D1248003BA081 /* OBShapedButton */ = {
+			isa = PBXGroup;
+			children = (
+				0A8CF2F71D7D1C27003BA081 /* UIImage+ColorAtPixel.h */,
+				0A8CF2F81D7D1C27003BA081 /* UIImage+ColorAtPixel.m */,
+				0A8CF2F41D7D1248003BA081 /* OBShapedButton.h */,
+				0A8CF2F51D7D1248003BA081 /* OBShapedButton.m */,
+			);
+			path = OBShapedButton;
+			sourceTree = "<group>";
+		};
+		E0F44CDD1DDDB2DD00723781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0F44CE31DDDB2DD00723781 /* libProtocolBuffers.a */,
+				E0F44CE51DDDB2DD00723781 /* UnitTests.xctest */,
+				E0F44CE71DDDB2DD00723781 /* ProtocolBuffers.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C3B2601C0BDFD300B0EC47 /* SimpleBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C3B2841C0BDFD400B0EC47 /* Build configuration list for PBXNativeTarget "SimpleBox" */;
+			buildPhases = (
+				04C3B25D1C0BDFD300B0EC47 /* Sources */,
+				04C3B25E1C0BDFD300B0EC47 /* Frameworks */,
+				04C3B25F1C0BDFD300B0EC47 /* Resources */,
+				04F30C5A1C1482E000443D60 /* Embed Frameworks */,
+				042AF7EE1C1D5AF600FBAAF9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0F44CEB1DDDB2E800723781 /* PBXTargetDependency */,
+			);
+			name = SimpleBox;
+			productName = SimpleBox;
+			productReference = 04C3B2611C0BDFD300B0EC47 /* SimpleBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C3B2791C0BDFD400B0EC47 /* SimpleBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C3B2871C0BDFD400B0EC47 /* Build configuration list for PBXNativeTarget "SimpleBoxTests" */;
+			buildPhases = (
+				04C3B2761C0BDFD400B0EC47 /* Sources */,
+				04C3B2771C0BDFD400B0EC47 /* Frameworks */,
+				04C3B2781C0BDFD400B0EC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C3B27C1C0BDFD400B0EC47 /* PBXTargetDependency */,
+			);
+			name = SimpleBoxTests;
+			productName = SimpleBoxTests;
+			productReference = 04C3B27A1C0BDFD400B0EC47 /* SimpleBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C3B2591C0BDFD300B0EC47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = FUJISTU;
+				TargetAttributes = {
+					04C3B2601C0BDFD300B0EC47 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = Z7HBSBQ97Q;
+					};
+					04C3B2791C0BDFD400B0EC47 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04C3B2601C0BDFD300B0EC47;
+					};
+				};
+			};
+			buildConfigurationList = 04C3B25C1C0BDFD300B0EC47 /* Build configuration list for PBXProject "SimpleBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C3B2581C0BDFD300B0EC47;
+			productRefGroup = 04C3B2621C0BDFD300B0EC47 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E0F44CDD1DDDB2DD00723781 /* Products */;
+					ProjectRef = E0F44CDC1DDDB2DD00723781 /* ProtocolBuffers.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				04C3B2601C0BDFD300B0EC47 /* SimpleBox */,
+				04C3B2791C0BDFD400B0EC47 /* SimpleBoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E0F44CE31DDDB2DD00723781 /* libProtocolBuffers.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libProtocolBuffers.a;
+			remoteRef = E0F44CE21DDDB2DD00723781 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E0F44CE51DDDB2DD00723781 /* UnitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.xctest;
+			remoteRef = E0F44CE41DDDB2DD00723781 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E0F44CE71DDDB2DD00723781 /* ProtocolBuffers.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ProtocolBuffers.framework;
+			remoteRef = E0F44CE61DDDB2DD00723781 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C3B25F1C0BDFD300B0EC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3B2701C0BDFD300B0EC47 /* Main.storyboard in Resources */,
+				D452E7931C194E7800A162D2 /* 统一背景.png in Resources */,
+				04C3B2751C0BDFD300B0EC47 /* LaunchScreen.xib in Resources */,
+				04C3B2721C0BDFD300B0EC47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B2781C0BDFD400B0EC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C3B25D1C0BDFD300B0EC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3B2D91C0C5AA400B0EC47 /* SimpleBoxAirConditioner.m in Sources */,
+				0A8CF2F61D7D1248003BA081 /* OBShapedButton.m in Sources */,
+				040ED6801C1842C400C0F3DA /* RotateImage.m in Sources */,
+				04C3B3231C0FE84B00B0EC47 /* SimpleBoxACSeatViewController.m in Sources */,
+				04C910071C1186A9004B9379 /* Reachability.m in Sources */,
+				0A8CF2F91D7D1C27003BA081 /* UIImage+ColorAtPixel.m in Sources */,
+				04B6B2511C1EE68B00490419 /* ACParameter.m in Sources */,
+				0AB4BE961D6EF90B002EB173 /* Simplebox_hacv.pb.m in Sources */,
+				04C3B26A1C0BDFD300B0EC47 /* AppDelegate.m in Sources */,
+				04C3B2951C0BE0F500B0EC47 /* SimpleBoxPageControl.m in Sources */,
+				040ED6831C1907ED00C0F3DA /* SimpleBoxMenu.m in Sources */,
+				04C3B2671C0BDFD300B0EC47 /* main.m in Sources */,
+				04C3B3201C0FCD7000B0EC47 /* SimpleBoxViewController.m in Sources */,
+				04C3B29E1C0C053A00B0EC47 /* SimpleBoxHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C3B2761C0BDFD400B0EC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C3B2811C0BDFD400B0EC47 /* SimpleBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C3B27C1C0BDFD400B0EC47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C3B2601C0BDFD300B0EC47 /* SimpleBox */;
+			targetProxy = 04C3B27B1C0BDFD400B0EC47 /* PBXContainerItemProxy */;
+		};
+		E0F44CEB1DDDB2E800723781 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ProtocolBuffers.framework;
+			targetProxy = E0F44CEA1DDDB2E800723781 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C3B26E1C0BDFD300B0EC47 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C3B26F1C0BDFD300B0EC47 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C3B2731C0BDFD300B0EC47 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C3B2741C0BDFD300B0EC47 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C3B2821C0BDFD400B0EC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dongfeng Motor Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lifeng Fu (K49MTP8SQZ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "a892fde6-333f-485e-9f2b-f3e490f5b5d6";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C3B2831C0BDFD400B0EC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dongfeng Motor Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lifeng Fu (K49MTP8SQZ)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "a892fde6-333f-485e-9f2b-f3e490f5b5d6";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C3B2851C0BDFD400B0EC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)Framework/build",
+					"$(PROJECT_DIR)Server/build",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				INFOPLIST_FILE = SimpleBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szlanyou.simpleBox.waibaok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
+			};
+			name = Debug;
+		};
+		04C3B2861C0BDFD400B0EC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)Framework/build",
+					"$(PROJECT_DIR)Server/build",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				INFOPLIST_FILE = SimpleBox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.szlanyou.simpleBox.waibaok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)";
+			};
+			name = Release;
+		};
+		04C3B2881C0BDFD400B0EC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleBox.app/SimpleBox";
+			};
+			name = Debug;
+		};
+		04C3B2891C0BDFD400B0EC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleBox.app/SimpleBox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C3B25C1C0BDFD300B0EC47 /* Build configuration list for PBXProject "SimpleBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C3B2821C0BDFD400B0EC47 /* Debug */,
+				04C3B2831C0BDFD400B0EC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C3B2841C0BDFD400B0EC47 /* Build configuration list for PBXNativeTarget "SimpleBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C3B2851C0BDFD400B0EC47 /* Debug */,
+				04C3B2861C0BDFD400B0EC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C3B2871C0BDFD400B0EC47 /* Build configuration list for PBXNativeTarget "SimpleBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C3B2881C0BDFD400B0EC47 /* Debug */,
+				04C3B2891C0BDFD400B0EC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C3B2591C0BDFD300B0EC47 /* Project object */;
+}

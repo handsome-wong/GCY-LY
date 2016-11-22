@@ -1,0 +1,9 @@
+1、将simpleBOX中的build path 中link 和copy file 的protocolBUffers.framework（此时为白色的） 删除
+
+2、编译 protocolBuffers 项目
+
+3、在simpleBOX中的build path 中link 和copy file 添加protocolBUffers.framework （此时为正常的工具箱样子，不是再重做一遍）
+
+
+错误：
+如果运行包mach-o, but wrong architecture 就将build path 中link中的protocolBUffers.framework  改required 改为 Optional
